@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android TV Sample</string>
+    <string name="browse_title">Choose content to play</string>
+</resources>
