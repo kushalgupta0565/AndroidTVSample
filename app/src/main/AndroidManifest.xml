@@ -36,7 +36,10 @@
             android:name=".ui.browse.BrowseActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".ui.video.VideoPlaybackActivity"
+            android:name=".ui.video.single.VideoPlaybackActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.video.playlist.VideoPlaylistActivity"
             android:screenOrientation="landscape" />
     </application>
 

@@ -1,170 +1,135 @@
 [
   {
-    "categoryName": "Monday",
+    "categoryName": "Single Video",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
     "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Explore%20Treasure%20Mode%20with%20Google%20Maps.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Monday",
+    "categoryName": "Single Video",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
     "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Monday",
+    "categoryName": "Single Video",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
     "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Monday",
+    "categoryName": "Single Video",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
     "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Nose.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Tuesday",
+    "categoryName": "Playlist",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Levity%20Algorithm.mp4",
+    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Tuesday",
+    "categoryName": "Playlist",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/YouTube's%20ready%20to%20select%20a%20winner.mp4",
+    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Wednesday",
+    "categoryName": "Playlist",
     "contentName": "Video Name",
     "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%2020ft%20Search.mp4",
+    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Nose.mp4",
     "contentType": "video"
   },
   {
-    "categoryName": "Wednesday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%20Balcony%20Toss.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://cbsla.files.wordpress.com/2014/05/005_sohohousescreening_sohohouse.jpg?w=976&h=576&crop=1",
+    "contentType": "image"
   },
   {
-    "categoryName": "Wednesday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%20Dance%20Search.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://assets.bonappetit.com/photos/57d85139b22e7d6464951651/master/w_1200,c_limit/Enzian.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Wednesday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%20Epic%20Docs%20Animation.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "http://rolandsansone.com/wp-content/uploads/2016/03/luxury-movie-theater.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Thusday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Hangouts.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://cbsla.files.wordpress.com/2014/05/cf002064.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Thusday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Instant%20Upload.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/ourstory_ourprogramme.jpg?itok=N2lnI9NR",
+    "contentType": "image"
   },
   {
-    "categoryName": "Thusday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20New%20Dad.mp4",
-    "contentType": "video"
+    "categoryName": "Single Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://www.thecoretheatresolihull.co.uk/media/1881/img_0249.jpg?anchor=center&mode=crop&width=825&height=440&rnd=131822527390000000",
+    "contentType": "image"
   },
   {
-    "categoryName": "Thusday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Say%20more%20with%20Hangouts.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://cbsla.files.wordpress.com/2014/05/005_sohohousescreening_sohohouse.jpg?w=976&h=576&crop=1",
+    "contentType": "image"
   },
   {
-    "categoryName": "Friday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Search.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://assets.bonappetit.com/photos/57d85139b22e7d6464951651/master/w_1200,c_limit/Enzian.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Friday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "http://rolandsansone.com/wp-content/uploads/2016/03/luxury-movie-theater.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Friday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://cbsla.files.wordpress.com/2014/05/cf002064.jpg",
+    "contentType": "image"
   },
   {
-    "categoryName": "Saturday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Say%20more%20with%20Hangouts.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://www.barbican.org.uk/sites/default/files/styles/hero_constrained_small/public/images/ourstory_ourprogramme.jpg?itok=N2lnI9NR",
+    "contentType": "image"
   },
   {
-    "categoryName": "Saturday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
-  },
-  {
-    "categoryName": "Sunday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Google%2B/Google%2B_%20Say%20more%20with%20Hangouts.mp4",
-    "contentType": "video"
-  },
-  {
-    "categoryName": "Sunday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
-  },
-  {
-    "categoryName": "Sunday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
-  },
-  {
-    "categoryName": "Sunday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
-  },
-  {
-    "categoryName": "Sunday",
-    "contentName": "Video Name",
-    "contentDesc": "Video Desc ",
-    "contentVideoUrl": "https://storage.googleapis.com/android-tv/Sample%20videos/Gone%20Google/Work%20has%20gone%20Google.mp4",
-    "contentType": "video"
+    "categoryName": "Multiple Image",
+    "contentName": "Image Name",
+    "contentDesc": "Image Desc ",
+    "contentVideoUrl": "https://www.thecoretheatresolihull.co.uk/media/1881/img_0249.jpg?anchor=center&mode=crop&width=825&height=440&rnd=131822527390000000",
+    "contentType": "image"
   }
 ]

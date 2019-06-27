@@ -22,18 +22,21 @@ import com.google.gson.reflect.TypeToken;
 import com.kushal.myapplication.R;
 import com.kushal.myapplication.model.browse.BrowseData;
 import com.kushal.myapplication.presenter.browse.BrowseDataPresenter;
-import com.kushal.myapplication.ui.video.VideoPlaybackActivity;
+import com.kushal.myapplication.ui.video.playlist.VideoPlaylistActivity;
+import com.kushal.myapplication.ui.video.playlist.VideoPlaylistFragment;
+import com.kushal.myapplication.ui.video.single.VideoPlaybackActivity;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BrowseFragment extends BrowseSupportFragment {
 
     public static final String TAG = "BrowseFragment";
     private ArrayObjectAdapter mCategoryRowAdapter;
-    private String[] categoryStrArr = {"Monday", "Tuesday", "Wednesday", "Thusday", "Friday", "Saturday", "Sunday"};
+    private String[] categoryStrArr = {"Single Video", "Playlist", "Single Image", "Multiple Image"};
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -74,7 +77,8 @@ public class BrowseFragment extends BrowseSupportFragment {
             inputStream.close();
 
             JsonElement jsonElement = new JsonParser().parse(new String(streamArray));
-            Type listType = new TypeToken<List<BrowseData>>() {}.getType();
+            Type listType = new TypeToken<List<BrowseData>>() {
+            }.getType();
 
             browseDataList = new Gson().fromJson(jsonElement, listType);
 
@@ -88,7 +92,7 @@ public class BrowseFragment extends BrowseSupportFragment {
         List<BrowseData> browseDataList = getBrowseData();
 
         if (browseDataList != null) {
-            for (String categoryName: categoryStrArr) {
+            for (String categoryName : categoryStrArr) {
                 ArrayObjectAdapter arrayAdapter = new ArrayObjectAdapter(new BrowseDataPresenter());
                 for (BrowseData data : browseDataList) {
                     if (data.getCategoryName().equals(categoryName)) {
@@ -108,10 +112,24 @@ public class BrowseFragment extends BrowseSupportFragment {
 
         @Override
         public void onItemClicked(Presenter.ViewHolder itemViewHolder, Object item, RowPresenter.ViewHolder rowViewHolder, Row row) {
-            if (item instanceof BrowseData) {
-                Intent intent = new Intent(getActivity(), VideoPlaybackActivity.class);
-                intent.putExtra(BrowseActivity.BROWSE_ITEM, (BrowseData)item);
+            if (row.getHeaderItem().getName().equalsIgnoreCase("Playlist")) {
+                ArrayObjectAdapter adapter = (ArrayObjectAdapter) ((ListRow) row).getAdapter();
+                ArrayList<BrowseData> dataList = new ArrayList<>();
+                for (int i = 0; i < adapter.size(); i++) {
+                    dataList.add((BrowseData) adapter.get(i));
+                }
+                Intent intent = new Intent(getActivity(), VideoPlaylistActivity.class);
+                intent.putExtra(VideoPlaylistFragment.PLAYLIST_KEY, dataList);
                 startActivity(intent);
+
+            } else if (row.getHeaderItem().getName().equalsIgnoreCase("Single Video") && item instanceof BrowseData) {
+                Intent intent = new Intent(getActivity(), VideoPlaybackActivity.class);
+                intent.putExtra(BrowseActivity.BROWSE_ITEM, (BrowseData) item);
+                startActivity(intent);
+            } else if (row.getHeaderItem().getName().equalsIgnoreCase("Single Image")) {
+                Toast.makeText(getContext(), "Single image clicked", Toast.LENGTH_SHORT).show();
+            } else if (row.getHeaderItem().getName().equalsIgnoreCase("Multiple Image")) {
+                Toast.makeText(getContext(), "Multiple image clicked", Toast.LENGTH_SHORT).show();
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.kushal.myapplication.ui.video;
+package com.kushal.myapplication.utils.video.single;
 
 import android.app.Activity;
 import android.os.Handler;
@@ -13,9 +13,10 @@ public class PlaybackControlsGlue<T extends MediaPlayerAdapter> extends Playback
 
     private PlaybackControlsRow.RepeatAction mRepeatAction;
 
-    public PlaybackControlsGlue(Activity context, T impl) {
-        super(context, impl);
+    public PlaybackControlsGlue(Activity context, T adapter) {
+        super(context, adapter);
         mRepeatAction = new PlaybackControlsRow.RepeatAction(context);
+        setControlsOverlayAutoHideEnabled(true);
     }
 
     @Override
@@ -51,6 +52,7 @@ public class PlaybackControlsGlue<T extends MediaPlayerAdapter> extends Playback
         mHandler.post(() -> {
             if (mRepeatAction.getIndex() != PlaybackControlsRow.RepeatAction.NONE) {
                 play();
+                PlaybackControlsGlue.this.getHost().hideControlsOverlay(true);
             }
         });
     }

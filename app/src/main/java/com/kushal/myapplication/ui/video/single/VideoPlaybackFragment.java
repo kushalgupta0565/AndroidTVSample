@@ -1,4 +1,4 @@
-package com.kushal.myapplication.ui.video;
+package com.kushal.myapplication.ui.video.single;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.support.v17.leanback.media.MediaPlayerAdapter;
 
 import com.kushal.myapplication.model.browse.BrowseData;
 import com.kushal.myapplication.ui.browse.BrowseActivity;
+import com.kushal.myapplication.utils.video.single.PlaybackControlsGlue;
+
 
 public class VideoPlaybackFragment extends VideoSupportFragment {
 
@@ -24,7 +26,6 @@ public class VideoPlaybackFragment extends VideoSupportFragment {
                 new VideoSupportFragmentGlueHost(VideoPlaybackFragment.this);
 
         MediaPlayerAdapter playerAdapter = new MediaPlayerAdapter(getActivity());
-//        playerAdapter.setRepeatAction(PlaybackControlsRow.RepeatAction.INDEX_ONE);
 
         mPlaybackControlGlue = new PlaybackControlsGlue<MediaPlayerAdapter>(getActivity(), playerAdapter);
         mPlaybackControlGlue.setHost(glueHost);
@@ -45,6 +46,4 @@ public class VideoPlaybackFragment extends VideoSupportFragment {
             mPlaybackControlGlue.pause();
         }
     }
-
-
 }
